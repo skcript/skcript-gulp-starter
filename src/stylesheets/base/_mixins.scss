@@ -1,0 +1,30 @@
+@mixin breakpoint($point) {
+   @if $point == large-desktop {
+     @media (min-width: 104em) { @content ; }
+  }
+  @else if $point == desktop {
+     @media (max-width: 70em) { @content ; }
+  }
+   @else if $point == laptop {
+     @media (max-width: 64em) { @content ; }
+  }
+    @else if $point == tablet {
+     @media (max-width: 50em) { @content ; }
+  }
+   @else if $point == phablet {
+     @media (max-width: 37.5em)  { @content ; }
+  }
+  @else if $point == mobileonly {
+     @media (max-width: 37.5em)  { @content ; }
+
+  }
+}
+
+@mixin transition($args) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
