@@ -1,9 +1,10 @@
 **This has been forked from [Gulp Starter](https://github.com/vigetlabs/gulp-starter)**
 
---
+---
 
 # Skcript Gulp Starter
 
+Skcript's very own Gulp Starter Kit for faster Front-End Development.
 
 ```bash
 npm install
