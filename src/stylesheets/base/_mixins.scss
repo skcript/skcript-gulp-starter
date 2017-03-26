@@ -28,3 +28,44 @@
   transition: $args;
 }
 
+
+// Reset List
+//
+// Resets default list styling.
+//
+// @usage - `@include reset-list`
+@mixin reset-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+// Hovers
+//
+// Create pseduo-classes for `:hover`, `:active`, and `:focus`.
+//
+// @usage - `@include hover`
+@mixin hover {
+  &:hover,
+  &:active,
+  &:focus { @content; }
+}
+
+
+// Hidden
+//
+// Hide from both screenreaders and browsers
+//
+// @usage - `@include hidden`
+@mixin hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+
+// Mixin for placeholder styling
+// ------------------
+@mixin placeHolder($color) {
+  &::-webkit-input-placeholder { color:$color; }
+  &:-moz-placeholder { color:$color; }
+}

@@ -8,7 +8,7 @@
 Skcript's very own Gulp Starter Kit for faster Front-End Development.
 
 
-#### Latest updates
+#### Latest updates -
 
 1. Added all the meta tags and updated global.json file.
 
