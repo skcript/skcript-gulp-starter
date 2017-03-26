@@ -2,14 +2,23 @@
 
 ---
 
+
 # Skcript Gulp Starter
 
 Skcript's very own Gulp Starter Kit for faster Front-End Development.
 
-```bash
-npm install
-npm start
-```
+
+#### Latest updates
+
+Added Static files such as 404, humans.txt, manifest.json and robots.txt.
+
+Added another page to HTML (about page).
+
+Added browserupgrade message on IE8.
+
+Added main_header_classes for HTML Pages.
+
+
 
 Features | Tools Used
 ------ | -----

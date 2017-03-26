@@ -1,8 +1,9 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>{{ page_title }} | Skcript Gulp Starter</title>
     <meta name="description" content="{{ page_description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
@@ -13,6 +14,9 @@
 </head>
 
 <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
     {% include "shared/header.html" %} 
     {% block content %}{% endblock %} 
     {% include "shared/footer.html" %} 

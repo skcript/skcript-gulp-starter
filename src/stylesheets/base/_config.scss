@@ -1,40 +1,74 @@
-// Variables
+// ---- ---- ---- ---- VARIABLES ---- ---- ---- ----
 
-$white: #FFFFFF;
-$black: #000000;
-
-$accent: #F16B20;
-$bg_color: #F9F9F9;
+// Site Colors
+$sqGrey: rgb(43, 57, 66);; //#2b3942
+$sqDarkGrey: darken($sqGrey, 10%); //#202e2e
+$sqMidGrey: lighten($sqGrey, 20%);
+$sqLightGrey: lighten($sqGrey, 60%);
+$sqBlueGreen: rgb(12,85,92); //#0c555c
+$sqWhite: lighten($sqLightGrey, 20%);
+$sqRed: rgb(255,34,26); //#ff6761
 
 // Greys
-$grey: #999999;
-$light-grey: #f5f5f5;
-$mid-grey: #d7dada;
-$dark-grey: #353b3b;
+$black: rgb(0,0,0); //#000000
+$darkerGrey: lighten($black, 10%);
+$darkGrey: lighten($black, 25%); //#404040
+$midGrey: lighten($black, 50%); //#808080
+$lightGrey: lighten($black, 75%); //#bfbfbf
+$lighterGrey: lighten($black, 90%); //#e6e6e6
+$white: rgb(255,255,255); //#ffffff
 
-// Default Color
-$default: $dark-grey;
+// Root
+$bodyColor: $sqGrey;
+$textColor: $sqLightGrey;
+$columnMargin: .5em;
+$gutter: 1em;
+$warningColor: red;
 
-// Flat UI Color Swatches
-$turquoise: #1abc9c;
-$green-sea: #16a085;
-$emerald: #2ecc71;
-$nephritis: #27ae60;
-$peter-river: #2980b9;
-$amethyst: #9b59b6;
-$wisteria: #8e44ad;
-$wet-asphalt: #34495e;
-$midnight-blue: #2c3e50;
-$sunflower: #f1c40f;
-$orange: #f39c12;
-$carrot: #e67e22;
-$pumpkin: #d35400;
-$alizarin: #e74c3c;
-$pomegranate: #c0392b;
-$clouds: #ecf0f1;
-$silver: #bdc3c7;
-$concrete: #95a5a6;
-$asbestos: #7f8c8d;
+// Typography
+$baseFont: 'PT Sans', sans-serif;
+$baseFontSize: 125%;
+$baselineHeight: 1.2em;
+$headingFont: $baseFont;
+$headingLineHeight: 1.35em;
+$headingFontWeight: bold;
+$headingColor: $sqLightGrey;
+$headingTextShadow: $sqMidGrey 1px 1px;
+$codeFont: Monaco, Courier New, monospace;
+$logoFont: 'Architects Daughter', sans-serif;
+
+// Links
+$linkColor: $sqRed; //#8B95B3
+$linkHover: darken($linkColor,5%);
+$linkVisited: darken($linkColor,10%);
+$linkFocus: darken($linkColor,15%);
+
+// Forms
+$textboxBackground: $sqWhite;
+$textboxBorderColor: $sqBlueGreen;
+$textboxBorderColorActive: $sqRed;
+$textboxBorderWidth: 1px;
+$textboxBorderStyle: solid;
+$textboxColor: $sqGrey;
+$textboxPlaceholderColor: $sqMidGrey;
+$textboxPadding: $gutter / 4;
+
+$buttonBackground: $sqDarkGrey;
+$buttonBorderColor: darken($buttonBackground,10%);
+$buttonBorderWidth: 1px;
+$buttonBorderStyle: solid;
+$buttonColor: $sqWhite;
+$buttonPadding: .25em .75em;
+
+// Tables
+$tableBackground: transparent;
+$tableStripe: $sqLightGrey;
+$tableFontSize: .875em;
+$tableLineHeight: 1.4em;
+$tableBorderWidth: 1px;
+$tableBorderStyle: solid;
+$tableBorderColor: $sqLightGrey;
+$tableHover: transparent;
 
 // Message Colors
 $msg-default: #999;

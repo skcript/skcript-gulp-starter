@@ -13,6 +13,7 @@
 
     "static": {
       "src": "static",
+      "extensions": ["*", ".htaccess"],
       "dest": "./"
     },
 

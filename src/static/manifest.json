@@ -1,0 +1,37 @@
+{
+  "name": "Skcript Gulp Starter",
+  "short_name": "Skcript",
+  "icons": [{
+        "src": "/assets/img/brand/skcript_logo.svg",
+        "type": "image/png",
+        "sizes": "128x128"
+      }, {
+        "src": "/assets/img/brand/skcript_logo.svg",
+        "type": "image/png",
+        "sizes": "152x152"
+      }, {
+        "src": "/assets/img/brand/skcript_logo.svg",
+        "type": "image/png",
+        "sizes": "144x144"
+      }, {
+        "src": "/assets/img/brand/skcript_logo.svg", 
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/assets/img/brand/skcript_logo.svg",
+        "type": "image/png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "/assets/img/brand/skcript_logo.svg",
+        "type": "image/png",
+        "sizes": "512x512"
+      }],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#000000"
+}
