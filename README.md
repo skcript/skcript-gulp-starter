@@ -10,15 +10,17 @@ Skcript's very own Gulp Starter Kit for faster Front-End Development.
 
 #### Latest updates
 
-Added Static files such as 404, humans.txt, manifest.json and robots.txt.
+1. Added all the meta tags and updated global.json file.
 
-Added another page to HTML (about page).
+2. Added Static files such as 404, humans.txt, manifest.json and robots.txt.
 
-Added browserupgrade message on IE8.
+3. Added another page to HTML (about page).
 
-Added main_header_classes for HTML Pages.
+4. Added browserupgrade message on IE8.
 
+5. Added main_header_classes for HTML Pages.
 
+---
 
 Features | Tools Used
 ------ | -----
