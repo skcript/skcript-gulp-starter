@@ -3,10 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{{ page_title }} | Skcript Gulp Starter</title>
-    <meta name="description" content="{{ page_description }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>{% if page_title %}{{ page_title }}{% else %}{{ title }}{% endif %}{{ titlelast }}</title>
+
+    {% include "shared/meta-tags.html" %} 
     {% include "shared/app-icons.html" %} 
     {% include "shared/css.html" %}
     <link rel="stylesheet" href="{{ base_path }}stylesheets/app.css"> 

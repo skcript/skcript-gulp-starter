@@ -5,6 +5,17 @@
 html {
     color: #222;
     font-size: 1em;
+    overflow-y: scroll;
+    -webkit-font-smoothing: antialiased;
+}
+
+// Formatting quoted code
+pre {
+    padding: 15px;
+    white-space: pre; /* CSS2 */
+    white-space: pre-wrap; /* CSS 2.1 */
+    white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+    word-wrap: break-word; /* IE */
 }
 
 /*
