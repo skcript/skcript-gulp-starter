@@ -19,8 +19,8 @@ $lighterGrey: lighten($black, 90%); //#e6e6e6
 $white: rgb(255,255,255); //#ffffff
 
 // Root
-$bodyColor: $sqGrey;
-$textColor: $sqLightGrey;
+$bodyColor: $white;
+$textColor: $darkerGrey;
 $columnMargin: .5em;
 $gutter: 1em;
 $warningColor: red;
