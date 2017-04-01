@@ -8,6 +8,20 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+/*  SELECTION
+    ----------------- */
+::-moz-selection {
+  background: black;
+  color: white;
+  text-shadow: none;
+}
+
+::selection {
+  background: black;
+  color: white;
+  text-shadow: none;
+}
+
 a {
   background: transparent;
   color: $linkColor;
@@ -27,22 +41,6 @@ pre {
     white-space: pre-line;
     word-wrap: break-word; 
 }
-
-
-/*  SELECTION
-    ----------------- */
-::-moz-selection {
-  background: black;
-  color: white;
-  text-shadow: none;
-}
-
-::selection {
-  background: black;
-  color: white;
-  text-shadow: none;
-}
-
 
 hr {
     display: block;
