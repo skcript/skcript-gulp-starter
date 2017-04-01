@@ -1,13 +1,9 @@
 // ---- ---- ---- ---- VARIABLES ---- ---- ---- ----
 
 // Site Colors
-$sqGrey: rgb(43, 57, 66);; //#2b3942
-$sqDarkGrey: darken($sqGrey, 10%); //#202e2e
-$sqMidGrey: lighten($sqGrey, 20%);
-$sqLightGrey: lighten($sqGrey, 60%);
-$sqBlueGreen: rgb(12,85,92); //#0c555c
-$sqWhite: lighten($sqLightGrey, 20%);
-$sqRed: rgb(255,34,26); //#ff6761
+$accent: #000000;  //Your Site Accent Color
+$accentDark: darken($accent, 20%);
+$accentLight: lighten($accent, 20%);
 
 // Greys
 $black: rgb(0,0,0); //#000000
@@ -32,41 +28,41 @@ $baselineHeight: 1.2em;
 $headingFont: $baseFont;
 $headingLineHeight: 1.35em;
 $headingFontWeight: bold;
-$headingColor: $sqLightGrey;
-$headingTextShadow: $sqMidGrey 1px 1px;
+$headingColor: $lighterGrey;
+$headingTextShadow: $midGrey 1px 1px;
 $codeFont: Monaco, Courier New, monospace;
 
 // Links
-$linkColor: $sqRed; //#8B95B3
+$linkColor: $accent;
 $linkHover: darken($linkColor,5%);
 $linkVisited: darken($linkColor,10%);
 $linkFocus: darken($linkColor,15%);
 
 // Forms
-$textboxBackground: $sqWhite;
-$textboxBorderColor: $sqBlueGreen;
-$textboxBorderColorActive: $sqRed;
+$textboxBackground: $white;
+$textboxBorderColor: $accent;
+$textboxBorderColorActive: $accent;
 $textboxBorderWidth: 1px;
 $textboxBorderStyle: solid;
-$textboxColor: $sqGrey;
-$textboxPlaceholderColor: $sqMidGrey;
+$textboxColor: $darkGrey;
+$textboxPlaceholderColor: $midGrey;
 $textboxPadding: $gutter / 4;
 
-$buttonBackground: $sqDarkGrey;
+$buttonBackground: $darkGrey;
 $buttonBorderColor: darken($buttonBackground,10%);
 $buttonBorderWidth: 1px;
 $buttonBorderStyle: solid;
-$buttonColor: $sqWhite;
+$buttonColor: $white;
 $buttonPadding: .25em .75em;
 
 // Tables
 $tableBackground: transparent;
-$tableStripe: $sqLightGrey;
+$tableStripe: $lightGrey;
 $tableFontSize: .875em;
 $tableLineHeight: 1.4em;
 $tableBorderWidth: 1px;
 $tableBorderStyle: solid;
-$tableBorderColor: $sqLightGrey;
+$tableBorderColor: $lightGrey;
 $tableHover: transparent;
 
 // Message Colors
