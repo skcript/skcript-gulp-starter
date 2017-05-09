@@ -1,13 +1,1 @@
-{
-  "data": "Hello World",
-  "title": "Skcript Starter",
-  "titlelast": " | Skcript Gulp Starter",
-  "description": "Skcript's very own starter kit",
-  "keywords": ", put, some, keywords, here",
-  "author": "@skcriptHQ",
-  "twitter": "@skcriptHQ",
-  "url": "https://github.com/skcript/skcript-gulp-starter.git",
-  "theme": "#000000",
-  "image": "images/default.png",
-  "favicon": "favicon.ico"
-}
+{"theme":"#000000","keywords":", put, some, keywords, here","data":"Hello Selena!","author":"@skcriptHQ","titlelast":" | Skcript Gulp Starter","url":"https://github.com/skcript/skcript-gulp-starter.git","twitter":"@skcriptHQ","favicon":"favicon.ico","title":"Skcript Starter","image":"images/default.png","description":"Skcript's very own starter kit"}
