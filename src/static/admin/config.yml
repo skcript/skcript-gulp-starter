@@ -1,0 +1,16 @@
+backend:
+  name: github
+  repo: skcript/skcript-gulp-starter # Path to your Github repository
+  branch: master # Branch to update (master by default)
+
+media_folder: "img/uploads" # Folder where user uploaded files should go
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "data"
+    label: "data"
+    files:
+      - name: "data"
+        label: "data"
+        file: "/src/html/data/global.json"
+        fields:
+          - {label: "data", name: "data", widget: "string"}
