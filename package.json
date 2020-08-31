@@ -67,7 +67,7 @@
     "lodash": "4.6.1",
     "lolex": "1.4.0",
     "mocha": "2.4.5",
-    "morgan": "1.7.0",
+    "morgan": "1.10.0",
     "object-assign": "4.0.1",
     "open": "0.0.5",
     "pretty-hrtime": "1.0.2",
