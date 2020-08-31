@@ -64,7 +64,7 @@
     "karma-nyan-reporter": "0.2.4",
     "karma-sinon-chai": "1.2.0",
     "karma-webpack": "1.7.0",
-    "lodash": "4.6.1",
+    "lodash": "4.17.20",
     "lolex": "1.4.0",
     "mocha": "2.4.5",
     "morgan": "1.7.0",
